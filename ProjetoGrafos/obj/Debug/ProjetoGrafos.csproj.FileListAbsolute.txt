@@ -1,0 +1,17 @@
+C:\Users\decok\Documents\Facens\5º Semestre\EDA II\ProjetoGrafosExercicio\ProjetoGrafos\obj\Debug\ProjetoGrafos.csprojAssemblyReference.cache
+C:\Users\decok\Documents\Facens\5º Semestre\EDA II\ProjetoGrafosExercicio\ProjetoGrafos\obj\Debug\ProjetoGrafos.Principal.resources
+C:\Users\decok\Documents\Facens\5º Semestre\EDA II\ProjetoGrafosExercicio\ProjetoGrafos\obj\Debug\ProjetoGrafos.Properties.Resources.resources
+C:\Users\decok\Documents\Facens\5º Semestre\EDA II\ProjetoGrafosExercicio\ProjetoGrafos\obj\Debug\ProjetoGrafos.csproj.GenerateResource.cache
+C:\Users\decok\Documents\Facens\5º Semestre\EDA II\ProjetoGrafosExercicio\ProjetoGrafos\obj\Debug\ProjetoGrafos.csproj.CoreCompileInputs.cache
+C:\Users\decok\Documents\Facens\5º Semestre\EDA II\ProjetoGrafosExercicio\ProjetoGrafos\bin\Debug\ProjetoGrafos.exe.config
+C:\Users\decok\Documents\Facens\5º Semestre\EDA II\ProjetoGrafosExercicio\ProjetoGrafos\bin\Debug\ProjetoGrafos.exe
+C:\Users\decok\Documents\Facens\5º Semestre\EDA II\ProjetoGrafosExercicio\ProjetoGrafos\bin\Debug\ProjetoGrafos.pdb
+C:\Users\decok\Documents\Facens\5º Semestre\EDA II\ProjetoGrafosExercicio\ProjetoGrafos\bin\Debug\Microsoft.GLEE.dll
+C:\Users\decok\Documents\Facens\5º Semestre\EDA II\ProjetoGrafosExercicio\ProjetoGrafos\bin\Debug\Microsoft.GLEE.Drawing.dll
+C:\Users\decok\Documents\Facens\5º Semestre\EDA II\ProjetoGrafosExercicio\ProjetoGrafos\bin\Debug\Microsoft.GLEE.GraphViewerGDI.dll
+C:\Users\decok\Documents\Facens\5º Semestre\EDA II\ProjetoGrafosExercicio\ProjetoGrafos\bin\Debug\Microsoft.GLEE.pdb
+C:\Users\decok\Documents\Facens\5º Semestre\EDA II\ProjetoGrafosExercicio\ProjetoGrafos\bin\Debug\Microsoft.GLEE.Drawing.pdb
+C:\Users\decok\Documents\Facens\5º Semestre\EDA II\ProjetoGrafosExercicio\ProjetoGrafos\bin\Debug\Microsoft.GLEE.GraphViewerGDI.pdb
+C:\Users\decok\Documents\Facens\5º Semestre\EDA II\ProjetoGrafosExercicio\ProjetoGrafos\obj\Debug\ProjetoGrafos.csproj.CopyComplete
+C:\Users\decok\Documents\Facens\5º Semestre\EDA II\ProjetoGrafosExercicio\ProjetoGrafos\obj\Debug\ProjetoGrafos.exe
+C:\Users\decok\Documents\Facens\5º Semestre\EDA II\ProjetoGrafosExercicio\ProjetoGrafos\obj\Debug\ProjetoGrafos.pdb

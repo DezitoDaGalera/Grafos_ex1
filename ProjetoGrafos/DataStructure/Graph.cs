@@ -85,6 +85,9 @@ namespace ProjetoGrafos.DataStructure
         /// <param name="name">O nome do nó a ser removido.</param>
         public void RemoveNode(string name)
         {
+            nodes.ForEach(no => no.Edges.RemoveAll(e => e.To.Name.Equals(name)));
+            nodes.Remove(Find(name));
+            //nodes.Remove(nodes.Find(no => no.Edges.RemoveAll(e => e.To.Equals(name))));
         }
 
         /// <summary>
@@ -95,6 +98,8 @@ namespace ProjetoGrafos.DataStructure
         /// <param name="cost">O cust associado.</param>
         public void AddEdge(string from, string to, double cost)
         {
+            Find(from).AddEdge(Find(to), cost);
+            //Find(from).Edges.Add(new Edge(Find(from),Find(to),cost));
         }
 
         /// <summary>
@@ -104,6 +109,8 @@ namespace ProjetoGrafos.DataStructure
         /// <returns></returns>
         public Node[] GetNeighbours(string from)
         {
+            nodes.ForEach(no => no.Edges.ForEach(e => e.To.Name.Equals(from)));//unfinished
+
             return null;
         }
 

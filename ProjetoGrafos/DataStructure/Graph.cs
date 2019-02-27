@@ -109,9 +109,14 @@ namespace ProjetoGrafos.DataStructure
         /// <returns></returns>
         public Node[] GetNeighbours(string from)
         {
-            nodes.ForEach(no => no.Edges.ForEach(e => e.To.Name.Equals(from)));//unfinished
+            List<Node> lista = new List<Node>();
+            //lista.Add(nodes.ForEach(no => no.Edges.ForEach(e => e.To.Name.Equals(from))));//unfinished
+            foreach (Node n in nodes)
+                foreach (Edge e in n.Edges)
+                    if (e.To.Name.Equals(from))
+                        lista.Add(e.From);
 
-            return null;
+            return lista.ToArray();
         }
 
         /// <summary>

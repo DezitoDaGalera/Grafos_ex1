@@ -113,8 +113,8 @@ namespace ProjetoGrafos.DataStructure
             //lista.Add(nodes.ForEach(no => no.Edges.ForEach(e => e.To.Name.Equals(from))));//unfinished
             foreach (Node n in nodes)
                 foreach (Edge e in n.Edges)
-                    if (e.To.Name.Equals(from))
-                        lista.Add(e.From);
+                    if (e.From.Name.Equals(from))
+                        lista.Add(e.To);
 
             return lista.ToArray();
         }
@@ -127,7 +127,26 @@ namespace ProjetoGrafos.DataStructure
         /// <returns></returns>
         public bool IsValidPath(ref Node[] nodes, params string[] path)
         {
-            return false;
+            Node a;
+            List<Node> lista = new List<Node>();
+            lista.Add(Find(path[0]));
+            for(int i=1;i<path.Length;)
+            {
+                a = Find(path[i - 1]);
+                if (Find(path[i]) == null && i == path.Length)
+                {
+                    
+                    return true;
+                }
+                if (GetNeighbours(a.Name).Contains(Find(path[i])))
+                {
+                    lista.Add(Find(path[i]));
+                    i++;
+                }
+                else return false;
+            }
+            nodes = lista.ToArray();
+            return true;
         }
 
         #endregion
